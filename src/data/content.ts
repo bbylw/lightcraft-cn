@@ -551,7 +551,5 @@ export const footer = {
     { label: 'github.com/storytold/lightcraft', href: 'https://github.com/storytold/lightcraft' },
   ],
   mast: '用纯 Rust 写的开源照片图库与 raw 显影工具。',
-  credits:
-    '展示照片为公有领域作品，经 Wikimedia Commons 使用：安塞尔·亚当斯《特顿山脉与蛇河》（1942，美国国家档案馆）；多萝西娅·兰格《移民母亲》（1936，美国国会图书馆）；阿波罗 8 号拍摄的地球（1968，NASA）；视频《Mons Mouton》为 NASA 科学可视化工作室的月球表面地球重建（公有领域）；界面截图为 LightCraft 程序生成。',
   copyright: '© 2026 ArtCraft 团队与 LightCraft 贡献者',
 }

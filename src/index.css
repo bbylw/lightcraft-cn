@@ -1367,20 +1367,12 @@
     }
   }
 
-  .footer__credits {
-    margin-top: clamp(44px, 5vw, 72px);
-    max-width: 44em;
-    font-size: 1rem;
-    line-height: 1.7;
-    color: var(--color-night-muted);
-  }
-
   .footer__last {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    margin-top: 28px;
+    margin-top: clamp(40px, 5vw, 64px);
     font-size: 1rem;
     line-height: 1.5;
     color: var(--color-night-muted);

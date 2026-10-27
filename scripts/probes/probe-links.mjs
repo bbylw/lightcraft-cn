@@ -17,6 +17,7 @@ for (const [width, label] of [
         ['hero', '.hero'],
         ['claims', '#claims'],
         ['contents', '#contents'],
+        ['footer', '.footer'],
       ],
     ],
     ['https://lightcraft.localhost/panels', [['panels-outro', '#outro']]],

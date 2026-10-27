@@ -41,8 +41,6 @@ export function Footer() {
           ))}
         </div>
 
-        <p className="footer__credits">{footer.credits}</p>
-
         <div className="footer__last">
           <span>{footer.copyright}</span>
           <a className="btn btn--paper btn--small" href="https://getartcraft.com/apps/lightcraft">
