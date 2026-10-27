@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LightCraft · 照片图库与 raw 显影</title>
+    <meta
+      name="description"
+      content="LightCraft 是一款用纯 Rust 写成的开源照片图库与 raw 显影工具。非破坏性、宽色域、本地优先，也可以被 AI 智能体通过 MCP 端到端驱动。"
+    />
+    <meta name="theme-color" content="#f4f1ea" />
+    <link rel="icon" type="image/svg+xml" href="/brand/artcraft-mark.svg" />
+    <link
+      rel="preload"
+      href="/fonts/general-sans-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/general-sans-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/jetbrains-mono-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
