@@ -1337,8 +1337,8 @@
 
   .footer__links {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px 24px;
     margin-top: clamp(44px, 5.5vw, 80px);
   }
 
@@ -1677,11 +1677,6 @@
     grid-column: 8 / 13;
   }
 
-  .footer__links {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 32px 24px;
-  }
-
   .status-summary__counts {
     grid-column: 1 / 8;
   }
@@ -1922,6 +1917,11 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
+  .footer__links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 24px;
+  }
+
   .footer__brand {
     grid-column: 1 / 13;
   }
@@ -2071,10 +2071,6 @@
   .bench__controls {
     grid-template-columns: minmax(0, 1fr);
     gap: 18px;
-  }
-
-  .footer__links {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .footer__last {

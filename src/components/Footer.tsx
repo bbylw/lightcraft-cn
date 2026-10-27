@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { footer } from '../data/content'
 
 export function Footer() {
@@ -29,11 +28,7 @@ export function Footer() {
               <ul>
                 {column.links.map((link) => (
                   <li key={link.href}>
-                    {link.href.startsWith('/') ? (
-                      <Link to={link.href}>{link.label}</Link>
-                    ) : (
-                      <a href={link.href}>{link.label}</a>
-                    )}
+                    <a href={link.href}>{link.label}</a>
                   </li>
                 ))}
               </ul>

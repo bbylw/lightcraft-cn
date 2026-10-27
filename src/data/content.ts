@@ -496,16 +496,6 @@ export const action = {
 export const footer = {
   columns: [
     {
-      title: '本站',
-      links: [
-        { label: '首页', href: '/' },
-        { label: '面板', href: '/panels' },
-        { label: '显影', href: '/develop' },
-        { label: '智能体', href: '/engine' },
-        { label: '状态', href: '/status' },
-      ],
-    },
-    {
       title: 'Crafting Apps',
       links: [
         { label: 'PhotoCraft', href: 'https://getartcraft.com/apps/photocraft' },
